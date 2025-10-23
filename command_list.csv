@@ -1,0 +1,210 @@
+    1  mkdir test
+    2  cd -s
+    3  cd test
+    4  git config -list
+    5  git config --list
+    6  git config --global user.name "Yaroslav"
+    7  git config --global user.email "test@gmail.com"
+    8  git config --list
+    9  git init
+   10  ls
+   11  touch 1.teiksti
+   12  ls
+   13  touch 2.teiksti
+   14  touch 3.teiksti
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m
+   19  git commit -m "my first commit"
+   20  git status
+   21  git log
+   22  nano
+   23  mkdir test
+   24  delit test
+   25  git branch -d test
+   26  mkdir test1
+   27  cd -s
+   28  cd test1
+   29  git config --list
+   30  git config --global user.name "Yaroslav"
+   31  git config --global user.email "test@gmail.com"
+   32  git config --list
+   33  git init
+   34  ls
+   35  touch 1.text
+   36  ls
+   37  touch 2.text
+   38  touch 3.text
+   39  git status
+   40  git add .
+   41  git status
+   42  git commit -m
+   43  git commit -m "my first commit"
+   44  git status
+   45  git log
+   46  nano
+   47  git status
+   48  git add 1.text
+   49  git status
+   50  git commit -add "my second commit"
+   51  git commit -m "my second commit"
+   52  git log
+   53  git branch
+   54  git branch dev
+   55  git branch
+   56  git checkout dev
+   57  touch 5.text 6.text
+   58  ls
+   59  git checkout text1
+   60  git branch text1
+   61  git checkout text1
+   62  touch 7.text 8.text
+   63  ls
+   64  git status
+   65  git add "Now1"
+   66  git add .
+   67  git add 7 .text
+   68  git commit -m "Seven"
+   69  git status
+   70  git branch dev
+   71  git merge text1
+   72  git checkout dev
+   73  git merge text1
+   74  git branch -d text1
+   75  git branch 
+   76  git branch -r
+   77  git checkout master
+   78  git marge  text1
+   79  git merge  text1
+   80  git merge  dev
+   81  git branch -d dev
+   82  ls
+   83  git branch
+   84  git remote add origin https://github.com/JARL092/TestProject.git
+   85  git push -u origin master
+   86  git remote add origin https://github.com/JARL092/TestProject.git
+   87  git push -u origin master
+   88  6ggfddddddsfff1
+   89  mkdir lab1
+   90  cd -s
+   91  cd lab1
+   92  git config --list
+   93  git config --global user.name "Yaroslav"
+   94  git config --global user.email "lab1@gmail.com"
+   95  git config --list
+   96  git init
+   97  touch 1.txt
+   98  ls
+   99  touch 2.txt
+  100  ls
+  101  touch 3.txt
+  102  ls
+  103  git commit -m "my first commit"
+  104  git add
+  105  git commit -m "my first commit"
+  106  git commit -m "my first commit"
+  107  git status
+  108  git log
+  109  cd Git1
+  110  git clone https://github.com/JARL092/HW_10.git
+  111  cd Git1
+  112  close
+  113  cd close
+  114  git clone https://github.com/JARL092/HW_10.git
+  115  cd HW_10
+  116  [200~git clone https://github.com/JARL092/HW_10.git
+  117  [200~touch text_ignore.txt
+  118  cd HW_10
+  119  git clone https://github.com/JARL092/HW_10.git
+  120  cd HW_10
+  121  git clone https://github.com/JARL092/HW_10.git
+  122  [200~touch text_ignore.txt
+  123  git clone https://github.com/JARL092/HW_10.git
+  124  cd Git1
+  125  git clone https://github.com/JARL092/HW_10.git
+  126  touch text_ignore.txt
+  127  echo "text_ignore.txt" >> .gitignore
+  128  git status
+  129  git add .
+  130  git add
+  131  git commit -m "Add .gitignore and exclude text_ignore.txt"
+  132  git clone https://github.com/JARL092/HW_10.git
+  133  git clone https://github.com/JARL092/HW_10.git
+  134  git clone https://github.com/JARL092/HW_10.git
+  135  cd Git1
+  136  cd Git1
+  137  git clone https://github.com/JARL092/HW_10.git
+  138  cd Git1
+  139  git clone [200~bash: cd: Git1: No such file or directory
+  140  git clone https://github.com/JARL092/HW_10.git
+  141  cd HW_10
+  142  touch text_ignore.txt
+  143  echo "text_ignore.txt" >> .gitignore
+  144  git status
+  145  git add .
+  146  git clone https://github.com/JARL092/HW_10.git
+  147  cd HW_10
+  148  toush text_ignore.txt
+  149  git clone https://github.com/JARL092/HW_10.git
+  150  cd HW_10
+  151  touch text_ignore.txt
+  152  echo "text_ignore.txt" >> .gitignore
+  153  git status
+  154  git add
+  155  git clone https://github.com/JARL092/HW_10.git
+  156  cd HW_10
+  157  touch text_ignore.txt
+  158  echo "text_ignore.txt" >> .gitignore
+  159  git status
+  160  git add .
+  161  gitt comin -m "Add .gitignore and exclude text_ignore.txt"
+  162  touch main_test.txt
+  163  git add .
+  164  git clone https://github.com/JARL092/HW_10.git
+  165  cd HW_10
+  166  touch text_ignore.txt
+  167  echo "text_ignore.txt" >> .gitignore
+  168  git status
+  169  git add .
+  170  git commit -m "Add .gitignore and exclude text_ignore.txt"
+  171  touch main_test.txt
+  172  git add .
+  173  git commit -m "Add main_test.txt file"
+  174  git checkout -b develop
+  175  git add .
+  176  git commit -m "Add develop_test.txt file"
+  177  git clone https://github.com/JARL092/HW_10.git
+  178  cd HW_10
+  179  touch text_ignore.txt
+  180  echo "text_ignore.txt" >> .gitignore
+  181  git status
+  182  git add .
+  183  git commit -m "Add .gitignore and exclude text_ignore.txt"
+  184  toush main_test.txt
+  185  git add .
+  186  git commit -m "Add main_test.txt file"
+  187  git checkout -b develop
+  188  touch develop_test.txt
+  189  git clone https://github.com/JARL092/HW_10.git
+  190  cd HW_10
+  191  touch text_ignore.txt
+  192  echo "text_ignore.txt" >> .gitignore
+  193  git status
+  194  git add .
+  195  git commit -m "Add .gitignore and exclude text_ignore.txt"
+  196  touch main_test.txt
+  197  git add .
+  198  git commit -m "Add main_test.txt file"
+  199  git checkout -b develop
+  200  touch develop_test.txt
+  201  git add .
+  202  git commit -m "Add develop_test.txt file"
+  203  echo "just a small change" >> develop_test.txt
+  204  git status
+  205  git add .
+  206  git commit -m "Update develop_test.txt with small change"
+  207  git checkout main
+  208  git merge develop
+  209  git log --oneline --graph --all
+  210  history > command_list.csv
